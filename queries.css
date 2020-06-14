@@ -1,0 +1,51 @@
+/* Small phones: 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    body {
+        width: 152%;
+    }
+    header {
+        display: block;
+    }
+    .logo {
+        margin-left: 2%;
+    }
+
+    .figures {
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+/* Large phones to small tables: 481px to 767px*/
+@media only screen and (max-width: 767px) and (min-width: 481px) {
+    body {
+        width: 51em;
+    }
+    footer {
+        position: relative;
+        top: 10em;
+        height: 4em;
+    }
+}
+
+/* Small to big tablets: 768px to 1023px*/
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        width: 109%;
+    }
+
+    footer {
+        position: relative;
+        top: 10em;
+        height: 4em;
+    }
+}
+
+/* Big tables to desktop screen: 1023px to 1200px*/
+@media only screen and (max-width: 1200px) and (min-width: 1023px) {
+    /* Working well */
+}
